@@ -1,15 +1,15 @@
 # Vault Server
 
-## for Development
+## Development
 
 ```sh
 vault server -dev -dev-root-token-id=myroot
 ```
 
-## with Configuration
+## Production with Configuration
 
 ```sh
-vault server -config=./vault.hcl
+vault server -config=./config.hcl
 ```
 
 ## 참조
