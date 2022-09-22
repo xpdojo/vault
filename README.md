@@ -42,6 +42,12 @@ sudo apt update && sudo apt install vault
 # Vault v1.11.3 (17250b25303c6418c283c95b1d5a9c9f16174fe8), built 2022-08-26T10:27:10Z
 ```
 
+## 실행
+
+```sh
+vault server -dev
+```
+
 ## 참조
 
 - [Install Vault](https://learn.hashicorp.com/tutorials/vault/getting-started-install) - HashiCorp Learn
